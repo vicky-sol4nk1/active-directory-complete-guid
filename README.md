@@ -287,5 +287,73 @@ DC01, DC02 → both are in this group.
 
 ---
 
+### 🔹 Organizational Units (OUs) – Simple Explanation
+
+* **OUs are containers inside Active Directory**
+* They are used to **organize users, computers, and groups** in a structured way
+
+---
+
+## 🔹 Why OUs are used?
+
+👉 To **apply policies (rules) to a group of users easily**
+
+Instead of setting rules one by one → apply to entire OU
+
+---
+
+## 🔹 Example 🏢
+
+Company departments:
+
+* IT
+* Sales
+* Marketing
+* HR
+
+👉 Each department has different rules:
+
+* **IT** → more access, admin tools
+* **Sales** → limited access
+* **Management** → special permissions
+
+So we create OUs like:
+
+* IT OU
+* Sales OU
+* Marketing OU
+
+---
+
+## 🔹 Key Points
+
+* A **user can be in only ONE OU at a time**
+* OUs usually follow **company structure**
+* You can also create **custom OUs** (like “Students”)
+
+---
+
+## 🔹 Your Case (THM Example)
+
+* Main OU: **THM**
+* Inside it:
+
+  * IT
+  * Management
+  * Marketing
+  * R&D
+  * Sales
+
+👉 This helps apply policies **department-wise**
+
+---
+
+## ✅ Simple Understanding
+
+* **OU = Folder**
+* **Users/Computers = Files inside folder**
+* **Policies = Rules applied to that folder**
+
+
 
 
