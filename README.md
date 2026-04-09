@@ -38,6 +38,86 @@
 
 * Users are **security principals** → they can **log in (authenticate)** and get **permissions (authorization)**.
 
+No problem—this concept confuses a lot of people at first. Let’s make it **very simple** 👇
+
+---
+
+## 🔹 What is a Security Principal?
+
+👉 A **security principal** is **anything that can be identified (login) and given permissions in a network**.
+
+In simple words:
+➡️ **“Jo login ho sakta hai aur access le sakta hai = security principal”**
+
+---
+
+## 🔹 Easy Analogy 🏢
+
+Think of a company office with ID cards:
+
+* If you have an **ID card**, you can:
+
+  * Enter the building ✅
+  * Access certain rooms ✅
+
+👉 That ID holder = **Security Principal**
+
+---
+
+## 🔹 In Active Directory
+
+Security principals are objects that:
+
+1. Can **authenticate (login / prove identity)**
+2. Can be **given permissions (access control)**
+
+---
+
+## 🔹 Examples
+
+### ✅ Security Principals:
+
+* **User accounts** → Rahul, Priya
+* **Machine accounts** → `PC01$`, `DC01$`
+* **Security Groups** → Domain Admins, HR Group
+
+👉 All of these can:
+
+* Be identified
+* Be given access (files, folders, systems)
+
+---
+
+### ❌ Not Security Principals:
+
+* Printers
+* Shared folders
+* Files
+
+👉 Because:
+
+* They **don’t log in**
+* They are just **resources**, not identities
+
+---
+
+## 🔹 One-Line Definition
+
+👉 **Security Principal = Identity + Permissions**
+
+---
+
+## 🔹 Real Example
+
+* Rahul logs in → **User (security principal)**
+* His PC connects → **Machine (security principal)**
+* He is in HR Group → **Group (security principal)**
+* He opens a file → file is **resource**, not security principal
+
+---
+
+
+
 ### 👉 Types of Users:
 
 * **People (Normal Users):**
