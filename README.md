@@ -355,5 +355,88 @@ So we create OUs like:
 * **Policies = Rules applied to that folder**
 
 
+### 🔹 Security Groups vs OUs (Simple & Clear)
+
+Both are used to organize users/computers, but **their purpose is different** 👇
+
+---
+
+## 🔹 Organizational Units (OUs)
+
+👉 Used for **applying policies (rules/settings)**
+
+### ✔ What they do:
+
+* Apply **Group Policies (GPOs)**
+* Control configurations like:
+
+  * Password rules
+  * Desktop settings
+  * Software restrictions
+
+### ❗ Important:
+
+* A user can be in **only ONE OU**
+
+### 👉 Example:
+
+* Sales OU → limited access, strict policies
+* IT OU → admin tools, relaxed policies
+
+---
+
+## 🔹 Security Groups
+
+👉 Used for **giving permissions (access control)**
+
+### ✔ What they do:
+
+* Control access to:
+
+  * Files/folders
+  * Printers
+  * Network resources
+
+### ❗ Important:
+
+* A user can be in **MULTIPLE groups**
+
+### 👉 Example:
+
+* Rahul in:
+
+  * HR Group → access HR files
+  * Printer Group → access printer
+
+---
+
+## 🔥 Key Difference (Most Important)
+
+| Feature    | OU                 | Security Group              |
+| ---------- | ------------------ | --------------------------- |
+| Purpose    | Apply **policies** | Give **permissions**        |
+| Membership | Only **one OU**    | **Multiple groups allowed** |
+| Use Case   | Manage settings    | Control access              |
+
+---
+
+## ✅ One-Line Trick (Exam Ready)
+
+👉 **OU = Policies (rules apply)**
+👉 **Group = Permissions (access control)**
+
+---
+
+## 🧠 Real Scenario
+
+* Rahul is in **Sales OU** → gets Sales policies
+* Rahul is in **3 groups** → gets access to 3 different resources
+
+---
+
+👉 That’s why both are needed:
+
+* **OUs = “How system behaves”**
+* **Groups = “What user can access”**
 
 
