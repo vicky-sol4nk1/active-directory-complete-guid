@@ -439,4 +439,20 @@ Both are used to organize users/computers, but **their purpose is different** �
 * **OUs = “How system behaves”**
 * **Groups = “What user can access”**
 
+🔹 Delegation in Active Directory (Simple Explanation)
+
+👉 Delegation = Giving limited admin rights to specific users
+
+Instead of giving full Domain Admin access, you allow someone to perform only specific tasks on certain OUs.
+
+🔹 Why use Delegation?
+To reduce workload of Domain Admin
+To increase security (no need to give full control)
+🔹 Example 🏢
+Phillip = IT Support
+He doesn’t need full admin access ❌
+But he should:
+Reset passwords ✅
+Unlock user accounts ✅
+
 
